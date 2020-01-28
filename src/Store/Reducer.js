@@ -1,7 +1,9 @@
 import { login } from "../login";
+import { user } from "../EmployeeList";
 
 const initialState = {
-  log: login
+  log: login,
+  employeeList: user
 };
 
 const reducer = (state = initialState, action) => {

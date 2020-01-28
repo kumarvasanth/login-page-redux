@@ -7,11 +7,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import { createStore } from "redux";
 import reducer from "./Store/Reducer";
 import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
 
 const Store = createStore(reducer);
 ReactDOM.render(
   <Provider store={Store}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Provider>,
   document.getElementById("root")
 );
