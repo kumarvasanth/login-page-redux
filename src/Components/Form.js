@@ -19,9 +19,9 @@ class Form extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>
+        <h5>
           Welcome to Login Page,username: hruday@gmail.com,Password :hruday123
-        </h1>
+        </h5>
         <form onSubmit={this.SubmitHandler} className="frm">
           <div className="form-row">
             <div className="col">
