@@ -30,7 +30,7 @@ class Form extends React.Component {
                 type="text"
                 name="username"
                 className="form-control"
-                placeholder="username"
+                placeholder="username is hruday@gmail.com"
               ></input>
             </div>
           </div>
@@ -44,7 +44,7 @@ class Form extends React.Component {
                 type="password"
                 name="password"
                 className="form-control"
-                placeholder="Password"
+                placeholder="Password is hruday123"
               ></input>
             </div>
           </div>
