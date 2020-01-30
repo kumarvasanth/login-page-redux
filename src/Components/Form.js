@@ -19,7 +19,9 @@ class Form extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>Welcome to Login Page</h1>
+        <h1>
+          Welcome to Login Page,username: hruday@gmail.com,Password :hruday123
+        </h1>
         <form onSubmit={this.SubmitHandler} className="frm">
           <div className="form-row">
             <div className="col">
@@ -30,7 +32,7 @@ class Form extends React.Component {
                 type="text"
                 name="username"
                 className="form-control"
-                placeholder="username is hruday@gmail.com"
+                placeholder="username"
               ></input>
             </div>
           </div>
@@ -44,7 +46,7 @@ class Form extends React.Component {
                 type="password"
                 name="password"
                 className="form-control"
-                placeholder="Password is hruday123"
+                placeholder="Password"
               ></input>
             </div>
           </div>
